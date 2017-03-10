@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>321060919343-j4ca80ufgcro0vdu87c5oknp4ipvj2j1.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.321060919343-j4ca80ufgcro0vdu87c5oknp4ipvj2j1</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCXl5LhdzZKnjdiAtDmIvdk6-GVJRBpbDI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>321060919343</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ToolShed.InsaneGram</string>
+	<key>PROJECT_ID</key>
+	<string>insanegram-fef5b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>insanegram-fef5b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:321060919343:ios:99ea3ef4865c6354</string>
+	<key>DATABASE_URL</key>
+	<string>https://insanegram-fef5b.firebaseio.com</string>
+</dict>
+</plist>

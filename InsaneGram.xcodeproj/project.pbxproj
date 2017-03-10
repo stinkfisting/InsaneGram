@@ -8,20 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		08212DA31E6D2E8A00907678 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08212DA21E6D2E8A00907678 /* AppDelegate.swift */; };
-		08212DA51E6D2E8A00907678 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08212DA41E6D2E8A00907678 /* ViewController.swift */; };
 		08212DA81E6D2E8A00907678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08212DA61E6D2E8A00907678 /* Main.storyboard */; };
 		08212DAA1E6D2E8A00907678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08212DA91E6D2E8A00907678 /* Assets.xcassets */; };
 		08212DAD1E6D2E8A00907678 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08212DAB1E6D2E8A00907678 /* LaunchScreen.storyboard */; };
+		08212DB51E6D2ECF00907678 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08212DB41E6D2ECF00907678 /* GoogleService-Info.plist */; };
+		085858391E6F662B00404943 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085858381E6F662B00404943 /* PostCell.swift */; };
+		0858583B1E6F66E300404943 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0858583A1E6F66E300404943 /* Post.swift */; };
+		0858583D1E6F674800404943 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0858583C1E6F674800404943 /* FeedVC.swift */; };
+		08EBBA761E6D3325008C02A5 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EBBA751E6D3325008C02A5 /* SignUpVC.swift */; };
+		08EBBA791E6D3DF4008C02A5 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EBBA781E6D3DF4008C02A5 /* LoginVC.swift */; };
+		08EBBA7C1E6E585C008C02A5 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EBBA7B1E6E585C008C02A5 /* UserCell.swift */; };
+		08EBBA7E1E6E5B09008C02A5 /* UsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EBBA7D1E6E5B09008C02A5 /* UsersVC.swift */; };
+		08EBBA821E6E5CE5008C02A5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EBBA811E6E5CE5008C02A5 /* User.swift */; };
+		08EBBA841E6E83BE008C02A5 /* UploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EBBA831E6E83BE008C02A5 /* UploadVC.swift */; };
+		69A2A6A2C0A61F5C5D215849 /* Pods_InsaneGram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FCD114DD804163D500BAE58 /* Pods_InsaneGram.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		08212D9F1E6D2E8A00907678 /* InsaneGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsaneGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08212DA21E6D2E8A00907678 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		08212DA41E6D2E8A00907678 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		08212DA71E6D2E8A00907678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		08212DA91E6D2E8A00907678 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08212DAC1E6D2E8A00907678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08212DAE1E6D2E8A00907678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08212DB41E6D2ECF00907678 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		085858381E6F662B00404943 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		0858583A1E6F66E300404943 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		0858583C1E6F674800404943 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		08EBBA751E6D3325008C02A5 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		08EBBA781E6D3DF4008C02A5 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		08EBBA7B1E6E585C008C02A5 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		08EBBA7D1E6E5B09008C02A5 /* UsersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersVC.swift; sourceTree = "<group>"; };
+		08EBBA811E6E5CE5008C02A5 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		08EBBA831E6E83BE008C02A5 /* UploadVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadVC.swift; sourceTree = "<group>"; };
+		2AEF5DA6D707C5B85714B139 /* Pods-InsaneGram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InsaneGram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InsaneGram/Pods-InsaneGram.debug.xcconfig"; sourceTree = "<group>"; };
+		7FCD114DD804163D500BAE58 /* Pods_InsaneGram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InsaneGram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C999CCDC2556130DDF5C91B8 /* Pods-InsaneGram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InsaneGram.release.xcconfig"; path = "Pods/Target Support Files/Pods-InsaneGram/Pods-InsaneGram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69A2A6A2C0A61F5C5D215849 /* Pods_InsaneGram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +63,8 @@
 			children = (
 				08212DA11E6D2E8A00907678 /* InsaneGram */,
 				08212DA01E6D2E8A00907678 /* Products */,
+				5C1AEB2C451E972D1F05F3F4 /* Pods */,
+				93107D4359BDFC189B96904E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +79,72 @@
 		08212DA11E6D2E8A00907678 /* InsaneGram */ = {
 			isa = PBXGroup;
 			children = (
+				08EBBA801E6E5CC3008C02A5 /* Objects */,
+				08EBBA7F1E6E5CB4008C02A5 /* Custom Cell */,
+				08EBBA7A1E6E5844008C02A5 /* View */,
+				08EBBA771E6D332A008C02A5 /* Controller */,
+				08212DB41E6D2ECF00907678 /* GoogleService-Info.plist */,
 				08212DA21E6D2E8A00907678 /* AppDelegate.swift */,
-				08212DA41E6D2E8A00907678 /* ViewController.swift */,
 				08212DA61E6D2E8A00907678 /* Main.storyboard */,
 				08212DA91E6D2E8A00907678 /* Assets.xcassets */,
 				08212DAB1E6D2E8A00907678 /* LaunchScreen.storyboard */,
 				08212DAE1E6D2E8A00907678 /* Info.plist */,
 			);
 			path = InsaneGram;
+			sourceTree = "<group>";
+		};
+		08EBBA771E6D332A008C02A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				08EBBA751E6D3325008C02A5 /* SignUpVC.swift */,
+				08EBBA781E6D3DF4008C02A5 /* LoginVC.swift */,
+				08EBBA7D1E6E5B09008C02A5 /* UsersVC.swift */,
+				08EBBA831E6E83BE008C02A5 /* UploadVC.swift */,
+				0858583C1E6F674800404943 /* FeedVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		08EBBA7A1E6E5844008C02A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		08EBBA7F1E6E5CB4008C02A5 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				08EBBA7B1E6E585C008C02A5 /* UserCell.swift */,
+				085858381E6F662B00404943 /* PostCell.swift */,
+			);
+			name = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		08EBBA801E6E5CC3008C02A5 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				08EBBA811E6E5CE5008C02A5 /* User.swift */,
+				0858583A1E6F66E300404943 /* Post.swift */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		5C1AEB2C451E972D1F05F3F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AEF5DA6D707C5B85714B139 /* Pods-InsaneGram.debug.xcconfig */,
+				C999CCDC2556130DDF5C91B8 /* Pods-InsaneGram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		93107D4359BDFC189B96904E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FCD114DD804163D500BAE58 /* Pods_InsaneGram.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +154,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08212DB11E6D2E8A00907678 /* Build configuration list for PBXNativeTarget "InsaneGram" */;
 			buildPhases = (
+				076648A0455358FCA8FBED05 /* [CP] Check Pods Manifest.lock */,
 				08212D9B1E6D2E8A00907678 /* Sources */,
 				08212D9C1E6D2E8A00907678 /* Frameworks */,
 				08212D9D1E6D2E8A00907678 /* Resources */,
+				5C4FA4B742BCDA0D00BBDD37 /* [CP] Embed Pods Frameworks */,
+				506EFF9E80C3CC202BF2180B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08212DAD1E6D2E8A00907678 /* LaunchScreen.storyboard in Resources */,
+				08212DB51E6D2ECF00907678 /* GoogleService-Info.plist in Resources */,
 				08212DAA1E6D2E8A00907678 /* Assets.xcassets in Resources */,
 				08212DA81E6D2E8A00907678 /* Main.storyboard in Resources */,
 			);
@@ -132,13 +219,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		076648A0455358FCA8FBED05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		506EFF9E80C3CC202BF2180B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InsaneGram/Pods-InsaneGram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C4FA4B742BCDA0D00BBDD37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InsaneGram/Pods-InsaneGram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		08212D9B1E6D2E8A00907678 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08212DA51E6D2E8A00907678 /* ViewController.swift in Sources */,
+				08EBBA7E1E6E5B09008C02A5 /* UsersVC.swift in Sources */,
+				08EBBA7C1E6E585C008C02A5 /* UserCell.swift in Sources */,
+				0858583D1E6F674800404943 /* FeedVC.swift in Sources */,
+				08EBBA821E6E5CE5008C02A5 /* User.swift in Sources */,
+				08EBBA761E6D3325008C02A5 /* SignUpVC.swift in Sources */,
 				08212DA31E6D2E8A00907678 /* AppDelegate.swift in Sources */,
+				08EBBA791E6D3DF4008C02A5 /* LoginVC.swift in Sources */,
+				0858583B1E6F66E300404943 /* Post.swift in Sources */,
+				08EBBA841E6E83BE008C02A5 /* UploadVC.swift in Sources */,
+				085858391E6F662B00404943 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +402,7 @@
 		};
 		08212DB21E6D2E8A00907678 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AEF5DA6D707C5B85714B139 /* Pods-InsaneGram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MU94B9X4PF;
@@ -272,6 +416,7 @@
 		};
 		08212DB31E6D2E8A00907678 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C999CCDC2556130DDF5C91B8 /* Pods-InsaneGram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MU94B9X4PF;
@@ -302,6 +447,7 @@
 				08212DB31E6D2E8A00907678 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

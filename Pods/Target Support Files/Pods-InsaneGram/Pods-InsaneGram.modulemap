@@ -1,0 +1,6 @@
+framework module Pods_InsaneGram {
+  umbrella header "Pods-InsaneGram-umbrella.h"
+
+  export *
+  module * { export * }
+}
